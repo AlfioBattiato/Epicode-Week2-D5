@@ -138,86 +138,86 @@ console.log("----------------esercizio 10-------------------------");
 
 const charactersArray = ["g", "n", "u", "z", "d"];
 const position = [];
-const alphabet = "abcdefghijklmnopqrstuvwxyz";
-console.log(alphabet.length);
+// const alphabet = "abcdefghijklmnopqrstuvwxyz";
+// console.log(alphabet.length);
 for (let index = 0; index < charactersArray.length; index++) {
   switch (charactersArray[index]) {
-    case "a":
+    case "a"||"A":
       position.push(1);
       break;
-    case "b":
+    case "b"||"B":
       position.push(2);
       break;
-    case "c":
+    case "c"||"C":
       position.push(3);
       break;
-    case "d":
+    case "d"||"D":
       position.push(4);
       break;
-    case "e":
+    case "e"||"E":
       position.push(5);
       break;
-    case "f":
+    case "f"||"F":
       position.push(6);
       break;
-    case "g":
+    case "g"||"G":
       position.push(7);
       break;
-    case "h":
+    case "h"||"H":
       position.push(8);
       break;
-    case "i":
+    case "i"||"I":
       position.push(9);
       break;
-    case "j":
+    case "j"||"J":
       position.push(10);
       break;
-    case "k":
+    case "k"||"K":
       position.push(13);
       break;
-    case "l":
+    case "l"||"L":
       position.push(14);
       break;
-    case "m":
+    case "m"||"M":
       position.push(15);
       break;
-    case "n":
+    case "n"||"N":
       position.push(16);
       break;
-    case "o":
+    case "o"||"O":
       position.push(17);
       break;
-    case "p":
+    case "p"||"P":
       position.push(18);
       break;
-    case "q":
+    case "q"||"Q":
       position.push(19);
       break;
-    case "r":
+    case "r"||"R":
       position.push(20);
       break;
-    case "s":
+    case "s"||"S":
       position.push(21);
       break;
-    case "t":
+    case "t"||"T":
       position.push(22);
       break;
-    case "u":
+    case "u"||"U":
       position.push(23);
       break;
-    case "v":
+    case "v"||"V":
       position.push(24);
       break;
-    case "w":
+    case "w"||"W":
       position.push(25);
       break;
-    case "x":
+    case "x"||"X":
       position.push(26);
       break;
-    case "y":
+    case "y"||"Y":
       position.push(26);
       break;
-    case "z":
+    case "z"||"Z":
       position.push(27);
       break;
   }
