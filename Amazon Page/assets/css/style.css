@@ -1,1 +1,130 @@
 /* Your styles here */
+/* vario */
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* header */
+.logo {
+  background-color: #222f3f;
+}
+.logo img {
+  max-width: 6%;
+  padding: 0.5rem 2rem;
+}
+.navbar {
+  background-color: #364759;
+  padding: 0.5rem 2rem;
+}
+.navbar a {
+  color: white;
+  padding: 4px;
+  text-decoration: none;
+  font-family: Arial, Helvetica, sans-serif;
+}
+/* main */
+
+main {
+  background-color: #e9edee;
+  padding: 2rem;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+  font-weight: bold;
+}
+
+main a {
+  color: #54999c;
+  text-decoration: none;
+  font-weight: bolder;
+}
+
+.orange {
+  background-color: #f56600;
+  padding: 10px;
+}
+.holiday-gift {
+  background-image: url(../images/bg-image.png);
+  margin-block: 2rem;
+  padding: 3.5rem;
+  background-size: contain;
+  height: 15rem;
+
+  
+}
+.holiday-gift h1 {
+  font-size: 3rem;
+  padding-block: 1.2rem;
+  font-weight: 500;
+  margin-top: 2.3rem;
+
+}
+.holiday-gift p{
+    font-size: 1.5rem;
+}
+/* card container */
+.container {
+  background-color: white;
+  color: black;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  text-align: left;
+  padding-top: 1rem;
+}
+.container p {
+  display: inline;
+  padding-left: 1.3rem;
+  padding-right: 0.5rem;
+  font-weight: bolder;
+}
+.container-cards {
+  max-width: 100%;
+}
+.card {
+  display: inline-block;
+  padding: 1.3rem;
+  width: 23%;
+  height: 35rem;
+}
+.card img {
+  border-radius: 1.5rem;
+  box-shadow: 3px 6px 11px 0px rgba(0, 0, 0, 0.26);
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* big pictures */
+.container2{
+    margin-top: 2rem;
+    width: 100%;
+}
+.container2 img{
+    width: 100%;
+}
+.container2 p{
+    color: black;
+    font-size: 17px;
+    display: inline-block;
+    margin-right: 15px;
+}
+/* footer */
+footer{
+    text-align: center;
+}
+footer a{
+    color: white;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    font-size: 18px;
+}
+footer p{
+    color: white;
+    padding: 1rem;
+    background-color: #364759;
+
+}
+.logofooter{
+    background-color: #222f3f;
+    padding: 2rem;
+}
+
